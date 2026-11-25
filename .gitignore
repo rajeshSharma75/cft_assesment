@@ -1,0 +1,35 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+
+# environment / secrets
+.env
+.env.*
+!.env.example
+serviceAccount*.json
+firebase-service-account*.json
+
+# logs
+*.log
+npm-debug.log*
+
+# editor / OS
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# test artifacts
+test-results/
+
+# local assessment notes (contains the recruitment email)
+requirement.text
+
+# md file for local assessment notes
+requirements.text
+COMMIT_GUIDE.md
+EMAIL_SUBMISSION.md
+FIREBASE_SETUP.md
+INTERVIEW_GUIDE.md
